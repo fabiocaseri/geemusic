@@ -25,6 +25,7 @@ play_promoted_songs_no_songs: "Mi dispiace, non riesco a trovare nessun brano vo
 play_promoted_songs_text: "Riproduco i tuoi brani votati positivamente."
 play_artist_none: "Mi dispiace, non riesco a trovare nessun brano di {{ artist }}"
 play_artist_text: "Riproduco i brani preferiti di {{ artist }}"
+play_artist_text_library: "Riproduco i brani di {{ artist }} falla tua libreria."
 play_similar_song_radio_no_song: "Per favore, riproduci un brano per avviare la radio."
 play_song_radio_text: "Riproduci brani come {{ song }} di {{ artist }}."
 play_artist_radio_text: "Riproduci la radio di {{ artist }}."
@@ -36,8 +37,10 @@ play_IFL_radio_text: "Riproduco musica dalla tua stazione personalizzata."
 play_IFL_radio_title: "Riproduco la radio Mi sento fortunato."
 play_different_album_no_track: "Mi dispiace, non c'è nessun album attualmente in riproduzione."
 play_library_text: "Riproduco musica dalla tua libreria."
+not_supported_without_store: "Spiacente, questa funzione richiede una sottoscrizione a Google Music"
 
 # playback.py
+indexing: "Sto indicizzando la tua libreria"
 stopped: "Fermato a {{ offset }}"
 started: "Partito a {{ offset }}"
 start_over: "Non ci sono brani in coda."
